@@ -1,0 +1,111 @@
+.container {
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* align-items: start;
+align-items: center;
+align-items: end; */
+    /* flex-direction: row;
+flex-direction: column;
+flex-direction: column-reverse;
+flex-direction: row-reverse;
+justify-content: space-around;
+justify-content: space-between;
+justify-
+}content: ; */
+    /* align-items: end; */
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    height: 100px;
+    width: 100px;
+    border: 10px solid red;
+}
+
+.box1 {
+    background-color: blue;
+
+}
+
+.box2 {
+    background-color: gray;
+}
+
+.box3 {
+    background-color: deeppink;
+}
+
+.box4 {
+    background-color: greenyellow;
+}
+
+.box5 {
+    background-color: maroon;
+}
+
+
+.containerflag:hover .blue {
+    background-color: #ff0000;
+    transition: 1s;
+}
+
+.containerflag:hover .green {
+    background-color: red;
+    transition: 1s;
+}
+
+.blue {
+    height: 100px;
+
+    background-color: blue;
+
+
+}
+
+.red {
+    height: 100px;
+
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.green {
+    height: 100px;
+    background-color: green;
+}
+
+.star {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    height: 80px;
+    width: 80px;
+    background-color: white;
+
+}
+
+.moon {
+    height: 80px;
+    width: 80px;
+
+    border-radius: 100px;
+    box-shadow: 10px 10px 0px white;
+    transform: rotate(130deg);
+    position: relative;
+    left: 40px;
+}
+
+.containerstar {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
